@@ -25,7 +25,7 @@ subpl2[1:1440,"Time"] <- format(subpl2[1:1440,"Time"],"2007-02-01 %H:%M:%S")
 subpl2[1441:2880,"Time"] <- format(subpl2[1441:2880,"Time"],"2007-02-02 %H:%M:%S")
 
 ### opening a png device to write the plot
-png(filename="Plot2.png")
+png(filename="Plot2.png",width = 480, height = 480)
 
 #calling the basic plot function & adding the required Axes labels
 
